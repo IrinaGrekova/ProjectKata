@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="project1.3.css" rel="stylesheet">
+    <link href="assets/stylesheet.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Услуги и сервисы</title>
+</head>
+<body class="body">
+<header class="header">
+         <a href="#popup" class="list__button--open_modal"><img src="assets/icon_menu.png" class="list__icon-menu" alt="Значок меню">
+         </a>
+    <div class="logo">
+        <button type="button" class="logo__button">
+        <img src="assets/grouplogo.png" alt="Логотип фирмы" class="logo__icon">
+        </button>
+    </div>
+    <ul type="none" class="list">
+        <li class="list__button--open-popup"><a href="#popup-form"><img src="assets/icon-phone.png" class="list__phone" alt="Связаться"></a></li>
+        <li class="list__button--open-popup"><a href="#popup-form-feedback"><img src="assets/icon-comment.png" class="list__comment" alt="Форма обратной связи"></a></button></li>
+        <li><button type="button" class="list__button"><img src="assets/icon-person.png" class="list__person" alt="Контакты"></button></li>
+        <li><button type="button" class="list__button"><img src="assets/icon_tools.png" class="list__tools" alt="Оставить заявку"></button></li>
+        <li><button type="button" class="list__button"><img src="assets/icon_search.png" class="list__search" alt="Статус ремонта"></button> </li>
+    </ul>
+    <div id = "popup-form" class="popup-form">
+        <div class="popup-form__body">
+            <div class="popup-form__content">
+                <p>Заказать обратный звонок</p>
+                <form>
+                    <p>Введите Ваше имя: <input type="text" class = "input-name" placeholder="Введите имя"></p>
+                    <p>Телефон в формате +7XXXXXXX: <input type="tel" name="tel"></p>
+                    <p><a href = "#"><input type="submit" class= "submit" value="Отправить"></a></p>
+                    <a href="#" class="popup-form__content--close">x</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id = "popup-form-feedback" class="popup-form-feedback">
+        <div class="popup-form--feedback__body">
+            <div class="popup-form-feedback__content">
+                <form>
+                    <p>Обратная связь</p>
+                    <p>Введите Ваше имя: <input type="text" class = "input-name" placeholder="Введите имя"></p>
+                    <p>Введите Ваше сообщение: <textarea type="text" class ="message"></textarea></p>
+                    <p><a href = "#"><input type="submit" class= "submit" value="Отправить"></a></p>
+                    <a href="#" class="popup-form-feedback__content--close">x</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="info">
+    <h1 class="title">Услуги и Сервисы</h1>
+    <div class="options-for-client">
+        <ul type="none">
+        <li class="options-for-client__repair">Ремонтируемые устройства</li>
+        <li class="options-for-client__other-options">Дополнительные услуги</li>
+        <li class="options-for-client__price">Цены на услуги</li>
+        <li class="options-for-client__adress">Адреса сервисных центров</li>
+        <li class="options-for-client__special-price">Специальные цены</li>
+        <li class="options-for-client__comment">Отзыв<li>
+        </ul>
+    </div>
+    <div class="promo">
+       <div class="promocontainer">
+       <p class="promocontainer__description-1">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+
+        <p class="promocontainer__description-2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+           <button type="button" class="read-next">Читать дальше
+           <img src="assets/icon-arrow.png" class="addinfopic" alt="Читать дальше">
+           </button>
+       </div>
+        <div>
+        <img src="assets/groupricture.png" class="group-pictures" alt="Табличка фирмы">
+        </div>
+    </div>
+</main>
+    <div class="title_5">
+        <p class="title__text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+    </div>
+    <div class="swiper">
+        <div class = "image-slider swiper-container">
+        <div class = "image-slider__wrapper swiper-wrapper">
+            <div class = "image-slider__slider swiper-slide">
+                <div class="image-slider__image">
+                    <img src="assets/lenovo.png" alt="Логотип Lenovo" class="image-slider__button">
+                </div>
+            </div>
+            <div class = "image-slider__slider swiper-slide">
+                <div class="image-slider__image">
+                   <img src="assets/samsung.png" class="image-slider__button" alt="Логотип Samsung">
+                </div>
+            </div>
+            <div class = "image-slider__slider swiper-slide">
+                <div class="image-slider__image">
+                    <img src="assets/apple.png" class="image-slider__button" alt="Логотип Apple">
+                </div>
+            </div>
+            <div class = "image-slider__slider swiper-slide">
+                <div class="image-slider__image">
+                    <img src="assets/hp.png" class="image-slider__button" alt="Логотип HP">
+                </div>
+            </div>
+            <div class = "image-slider__slider swiper-slide">
+                <div class="image-slider__image">
+                    <img src="assets/acer.png" class="image-slider__button" alt="Логотип Acer">
+                </div>
+            </div>
+            <div class = "image-slider__slider swiper-slide">
+                <div class="image-slider__image">
+              <img src="assets/bosch.png" class="image-slider__button" alt="Логотип Bosch">
+                </div>
+            </div>
+            <div class = "hidden_elements">
+            <div class = "image-slider__slider show swiper-slide">
+                <div class="image-slider__image">
+                    <img src="assets/viewsonic.png" class="image-slider__button" alt="Логотип ViewSonic">
+            </div>
+            <div class = "image-slider__slider show swiper-slide">
+                <div class="image-slider__image">
+                    <img src="assets/sony.png" class="image-slider__button" alt="Логотип Sony">
+                </div>
+            </div>
+            <div class = "image-slider__slider show swiper-slide">
+                <div class="image-slider__image">
+                    <img src="assets/lenovo.png" class="image-slider__button" alt="Логотип Lenovo">
+                </div>
+            </div>
+            <div class = "image-slider__slider show swiper-slide">
+                <div class="image-slider__image">
+                    <img src="assets/samsung.png" class="image-slider__button" alt="Логотип Samsung">
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class = "swiper-pagination"></div>
+
+    <div class = "show_all">
+        <button class = "show_all__button"> <img src="assets/icon-arrow.png" alt="Показать все" class="arrow">Показать все</button>
+    </div>
+    <div class = "button_hidden">
+        <button class = "button_hidden__button"> <img src="assets/arrowUp.png" alt="Скрыть" class="arrowUp">Скрыть</button>
+    </div>
+   </div>
+  <aside id="popup" class="popup" >
+    <div class = "popup__body">
+    <div class="popup__content">
+        <header class="popup-menu">
+            <a href="#" class="popup-menu__close"><img src="assets/icon_close.png" alt = 'закрыть'></a>
+            <img src="assets/grouplogo.png" alt="Логотип фирмы" class="logo__icon">
+            <button class="popup-menu__search"><img src="assets/icon_search.png" alt = 'поиск'></button>
+        </header>
+        <div class="services">
+            <ul type="none" class="options_popup">
+                <li><a href="#" class="options_popup__repair">Ремонт техники</a></li>
+                <li><a href="#" class="options_popup__service">Услуги и сервисы</a></li>
+                <li><a href="#" class="options_popup__corporate">Корпоративным клиентам</a></li>
+                <li><a href="#" class="options_popup__forSale">Продавцам техники</a></li>
+                <li><a href="#" class="options_popup__partner">Партнерам</a></li>
+                <li><a href="#" class="options_popup__producer">Производителям</a></li>
+                <li><a href="#" class="options_popup__serviceCenter">Наши сервисные центры</a><li>
+                <li><a href="#" class="options_popup__contacts">Контакты</a><li>
+            </ul>
+        </div>
+        <footer class="footer">
+        <div class="list-modal">
+            <ul type="none">
+                <li><button type="button" class="list-modal__button"><img src="assets/icon-phone.png" class="list__phone" alt="Связаться"></button> </li>
+                <li><button type="button" class="list-modal__button"><img src="assets/icon-comment.png" class="list__comment" alt="Оставить заявку"></button></li>
+                <li><button type="button" class="list-modal__button"><img src="assets/icon-person.png" class="list__person" alt="Контакты"></button></li>
+            </ul>
+        </div>
+        <p class="email"><a href="#">mail@cps.com</a></p>
+            <p><a href = 'tel:88008908900' class="phone">8 800 890 8900</a></p>
+
+            <ul type="none" class="language_choose">
+                <li><a href="#" class="language_choose__russian">RU</a></li>
+                <li><a href="#" class="language_choose__english">EN</a></li>
+                <li><a href="#" class="language_choose__french">CH</a></li>
+            </ul>
+        </footer>
+    </div>
+    </div>
+</aside>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="project.js">
+</script>
+    </div>
+</body>
+</html>
